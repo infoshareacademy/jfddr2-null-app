@@ -48,7 +48,6 @@ const Login = () => {
   return (
     <div style={{ margin: "40px" }}>
       <HomeButton />
-
       <form
         className="form"
         onSubmit={(e) => {

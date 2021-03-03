@@ -1,0 +1,57 @@
+.form {
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #153121;
+  border-radius: 10px;
+  min-height: 100px;
+  width: 90%;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px rgba(223, 226, 218, 0.4);
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.signForm__button2 {
+  margin: auto;
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: blue;
+}
+.signForm__button2:hover {
+  color: red;
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    margin: auto;
+  }
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  align-items: stretch;
+  justify-content: center;
+  border: 1px solid #153121;
+  border-radius: 10px;
+  min-height: 25px;
+  width: 90%;
+  background-color: white;
+
+  box-shadow: 5px 5px 5px 5px rgba(223, 226, 218, 0.4);
+  cursor: pointer;
+}
+
+.login__submit:hover {
+  color: red;
+}
+h2 {
+  color: rgb(21, 49, 33);
+}
