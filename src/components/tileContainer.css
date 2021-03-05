@@ -10,17 +10,13 @@
 
 .TileContainer__div {
   margin: auto;
-  /* max-width: 1400px; */
+  max-width: 1400px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background: rgb(43, 58, 28);
-  background: linear-gradient(
-    0deg,
-    rgb(35, 47, 22) 0%,
-    rgba(109, 124, 100, 0.726) 100%
-  );
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221));
 }
 
 @media only screen and (min-width: 768px) {

@@ -28,7 +28,30 @@
 .Input__submit {
   width: 100px;
   margin: 5px;
+  height: 25px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-image: linear-gradient(
+    to right,
+    #6a9113 0%,
+    #141517 51%,
+    #6a9113 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border: 1px solid #153121;
 }
+.Input__submit:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 .Input_box {
   color: black;
   text-align: center;
@@ -49,5 +72,11 @@
   }
   .Input__box {
     width: 70%;
+  }
+  .Input__submit {
+    border-radius: 15px;
+    width: 140px;
+    height: 30px;
+    margin: 5px;
   }
 }

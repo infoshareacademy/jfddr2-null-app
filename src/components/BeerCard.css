@@ -3,7 +3,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221));
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(212, 212, 212));
   font-family: "Shippori Mincho", serif;
   height: 100vh;
 }
@@ -58,7 +58,6 @@
 }
 .Beercard__right--info {
   padding: 5%;
-  font-family: "Antic Slab", serif;
 }
 .Beercard__right--description {
   font-size: 18px;
